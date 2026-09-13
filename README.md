@@ -63,3 +63,23 @@ If this activity occurred in a real environment, recommended actions would inclu
 * Threat Identification
 * Security Documentation
 * Git & GitHub
+
+
+## Project Structure
+
+```text
+cybersecurity-log-analysis-project/
+│
+├── README.md
+├── analyze_logs.py
+├── incident_report.md
+└── security.log
+```
+
+### File Descriptions
+
+* **`analyze_logs.py`** — Python script that analyzes authentication logs and identifies suspicious login patterns.
+* **`security.log`** — Simulated authentication log containing successful and failed login events.
+* **`incident_report.md`** — Security investigation report documenting the findings, analysis, and recommended response.
+* **`README.md`** — Project overview, investigation methodology, key findings, and skills demonstrated.
+
